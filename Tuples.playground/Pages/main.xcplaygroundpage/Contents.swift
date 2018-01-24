@@ -16,8 +16,11 @@
  */
 // write your code here
 
+var person: (name: String , age: Int )
 
+person.name = "Jerome"
 
+person.age = 23
 
 
 
@@ -29,6 +32,7 @@
 // write your code here
 
 
+print("\(person.name) is \(person.age) years old")
 
 
 
@@ -41,7 +45,7 @@
 // write your code here
 
 
-
+person.age = person.age + 1
 
 
 
@@ -53,7 +57,7 @@
 // write your code here
 
 
-
+print("Happy \(person.age) birthday \(person.name)!")
 
 
 
@@ -65,8 +69,9 @@
 // write your code here
 
 
-
-
+var someone: (name: String, age: Int)
+someone.name = "Gerry"
+someone.age = 69
 
 
 
@@ -77,7 +82,7 @@
 // write your code here
 
 
-
+print("\(someone.age) is \(someone.age) years old")
 
 
 
@@ -88,7 +93,7 @@
 // write your code here
 
 
-
+someone.age = someone.age + 1
 
 
 
@@ -99,7 +104,7 @@
 // write your code here
 
 
-
+print("Happy \(someone.age) birthday, \(someone.name)!")
 
 
 
@@ -111,7 +116,7 @@
 // write your code here
 
 
-
+let human: (name: String, age: Int)
 
 
 
@@ -120,7 +125,7 @@
 /*:
  ### 10. Can you change `human`'s age? Why or why not?
  */
-
+// no it is a constant, only if you change it to be a var
 
 
 
